@@ -25,7 +25,7 @@
 
 ## Instalar dependencias de archivos (css, img, etc)
 
-    $ npm i --save-dev html-webpack-plugin mini-css-extract-plugin clean-webpack-plugin css-loader node-sass sass-loader file-loader style-loader url-loader 
+    $ npm i --save-dev html-webpack-plugin mini-css-extract-plugin clean-webpack-plugin autoprefixer postcss-loader css-loader node-sass sass-loader file-loader style-loader url-loader 
 
 ## Instalar dependencias de React (stable) 18
 
