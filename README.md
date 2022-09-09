@@ -124,7 +124,7 @@ Definir "rules" en el ***webpack.config.js***
                 ...
                 {
                     test: /\.(js|jsx)$/,
-                    exclude: /node_module/,
+                    exclude: /node_modules/,
                     use: ['babel-loader']
                 },
                 ...
