@@ -170,7 +170,7 @@ Definir "rules" en el ***webpack.config.js***
     }
 ```
 
-Definit "resolve" en el ***webpack.config.js***
+Definir "resolve" en el ***webpack.config.js***
 ```javascript
     module.exports = {
         ...
