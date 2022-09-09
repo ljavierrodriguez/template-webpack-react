@@ -54,6 +54,7 @@
 
     node_modules
     bower_components
+    build
 
     *.sublime*
 
@@ -231,12 +232,12 @@ Configurar "scripts" en el ***package.json***
 ## Incluir codigo en el ***./src/index.js***
 
 ```javascript
-    import React from 'react';
-    import ReactDOM from 'react-dom/client';
-    import App from './App';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-    const container = document.querySelector('#root');
-    ReactDOM.createRoot(container).render(<App />)
+const container = document.querySelector('#root');
+ReactDOM.createRoot(container).render(<App />)
 
 ```
 
