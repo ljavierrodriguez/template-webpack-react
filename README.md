@@ -282,3 +282,22 @@ Configurar bootstrap en el ***index.js***
     import 'bootstrap/dist/css/bootstrap.min.css'; // CSS
     import 'bootstrap/dist/js/bootstrap.bundle'; // JS
 ```
+
+## Instalar Dotenv para leer variables de entorno
+
+    $ npm i --save-dev dovenv-webpack
+
+## Configurar Dotenv en el webpack.config.js
+
+```javascript
+const Dotenv = require('dotenv-webpack');
+
+module.exports = {
+  ...
+  plugins: [
+    new Dotenv()
+  ]
+  ...
+};
+
+```
